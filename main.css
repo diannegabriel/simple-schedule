@@ -2,11 +2,23 @@ html {
   box-sizing: border-box;
 }
 
-*, *::before, *::after {
-  box-sizing: inherit;
+*, *:before, *:after {
+	margin: 0;
+	padding: 0;
 }
 
 nav {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  background-color: aquamarine;
+}
+
+main {
+  background-color: brown;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
