@@ -5,3 +5,8 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+nav {
+  display: flex;
+  flex-direction: row;
+}
