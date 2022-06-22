@@ -51,11 +51,12 @@ main {
 #projects-container {
   background-color: gray;
   margin-top: 150px;
-  width: 500px;
+  width: 600px;
 }
 
-#projects, p {
+#project-name {
   margin: 20px;
+  border: 1px solid whitesmoke;
 }
 
 #weeks-container {
@@ -91,5 +92,6 @@ main {
   flex-direction: row;
   justify-content: space-around;
   margin-top: 20px;
-  margin-bottom: 20px;
+  border: 1px solid whitesmoke;
 }
+
