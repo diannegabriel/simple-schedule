@@ -36,3 +36,20 @@ main {
   align-items: center;
   background-color: beige;
 }
+
+#weekly-hours {
+  display: flex;
+  flex-direction: row;
+  background-color: aqua;
+  width: 85vw;
+  height: 75vh;
+  justify-content: center;
+}
+
+#projects {
+  background-color: gray;
+}
+
+#weeks {
+  background-color: green;
+}
