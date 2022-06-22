@@ -1,11 +1,13 @@
 html {
   box-sizing: border-box;
-  overflow: hidden; 
+  overflow: hidden;
 }
 
-*, *:before, *:after {
-	margin: 0;
-	padding: 0;
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
 }
 
 nav {
@@ -46,10 +48,48 @@ main {
   justify-content: center;
 }
 
-#projects {
+#projects-container {
   background-color: gray;
+  margin-top: 150px;
+  width: 500px;
 }
 
-#weeks {
+#projects, p {
+  margin: 20px;
+}
+
+#weeks-container {
   background-color: green;
+  /* transform: rotate(-35deg); */
+  display: flex;
+  flex-direction: column;
+}
+
+#weeks-header {
+  background-color: rgb(142, 221, 142);
+  /* transform: rotate(-35deg); */
+  display: flex;
+  flex-direction: row;
+  height: 150px;
+}
+
+#week {
+  background-color: rgb(233, 15, 106);
+  color: #fff;
+  top: 60px;
+  position: relative;
+  margin-right: -145px;
+  padding: 5px 15px;
+  text-align: center;
+  transform: rotate(-35deg);
+  width: 175px;
+  height: 20px;
+}
+
+#hours {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
