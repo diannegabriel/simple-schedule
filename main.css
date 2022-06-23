@@ -35,7 +35,6 @@ main {
   margin-top: 30px;
   display: flex;
   justify-content: center;
-  align-items: center;
   background-color: beige;
 }
 
@@ -48,10 +47,10 @@ main {
   justify-content: center;
 }
 
-#projects-container {
+.projects-container {
   background-color: gray;
-  margin-top: 150px;
-  width: 600px;
+  margin-top: 120px;
+  width: 40vw;
 }
 
 #project-name {
@@ -59,39 +58,59 @@ main {
   border: 1px solid whitesmoke;
 }
 
-#weeks-container {
-  background-color: green;
-  /* transform: rotate(-35deg); */
+.hours-container {
   display: flex;
   flex-direction: column;
+  background-color: black;
+  height: 100%;
+  width: 40vw;
+}
+
+#weeks-bg {
+  background-color: greenyellow;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-left: 70px;
 }
 
 #weeks-header {
-  background-color: rgb(142, 221, 142);
-  /* transform: rotate(-35deg); */
+  top: 0;
+  /* background-color: greenyellow; */
   display: flex;
   flex-direction: row;
-  height: 150px;
+  justify-content: flex-start;
+  margin: -76px 0 56px 0;
 }
 
 #week {
   background-color: rgb(233, 15, 106);
-  color: #fff;
-  top: 60px;
-  position: relative;
-  margin-right: -145px;
-  padding: 5px 15px;
-  text-align: center;
-  transform: rotate(-35deg);
-  width: 175px;
+  min-width: 50px;
+  height: 140px;
+  transform: skew(-45deg);
+  margin-right: 20px;
+}
+
+#week-range {
+  background-color: rgb(233, 15, 106);
+  min-width: 185px;
+  transform: rotate(-45deg);
   height: 20px;
+  text-align: center;
+  margin-right: -115px;
+}
+
+#hours-columns {
+  background-color: rgb(70, 70, 160);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  height: 100%;
 }
 
 #hours {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin-top: 20px;
-  border: 1px solid whitesmoke;
+  background-color: rgb(233, 15, 106);
+  min-width: 50px;
+  height: 100%;
+  margin-right: 20px;
 }
-
