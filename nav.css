@@ -19,4 +19,8 @@
   margin: 0px;
 }
 
+.navbar li {
+  float: left;
+}
+
 
