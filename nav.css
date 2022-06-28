@@ -8,8 +8,14 @@
   color: #3f4a97;
 }
 
-.navbar ul {
-  text-decoration: none;
-  display: block;
-  list-style-type: none;
+.navbar {
+  overflow: hidden;
+  position: relative;
 }
+
+.navbar ul {
+  list-style-type: none;
+
+}
+
+
