@@ -11,6 +11,8 @@
 .navbar {
   overflow: hidden;
   position: relative;
+  color:#3f4a97;
+  font-size: 15px;
 }
 
 .navbar ul {
@@ -23,4 +25,6 @@
   float: left;
 }
 
-
+.nav-item {
+  margin-right: 10px;
+}
