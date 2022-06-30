@@ -15,11 +15,11 @@ body {
   flex-direction: column;
   justify-content: center;
   background-color: #045891;
-  /* background: linear-gradient(to bottom,#045891,rgb(159, 190, 211)); */
+  background-image: radial-gradient(circle, #3a7daa, #163f5b);
 }
 
 main {
-  height: 85vh;
+  height: 80vh;
   overflow:scroll;
   display: flex;
   flex-wrap: wrap;
@@ -32,6 +32,6 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 8vh;
+  height: 12vh;
   font-size: 14px;
 }

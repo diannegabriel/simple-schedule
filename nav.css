@@ -9,6 +9,9 @@
 #navbarSupportedContent {
   overflow: hidden;
   position: relative;
+	-moz-box-shadow: 8px 6px 6px #1a1a1a2b, 0px 0px 0px #e3e3e300;
+  -webkit-box-shadow: 8px 6px 6px #1a1a1a2b, 0px 0px 0px #e3e3e300;
+  box-shadow: 8px 6px 6px #1a1a1a2b, 0px 0px 0px #e3e3e300;
 }
 #navbarSupportedContent ul {
   padding: 0px;
@@ -43,7 +46,6 @@
   right: 20px;
   top: 10px;
   font-size: 14px;
-  font-family: "Font Awesome 5 Free";
   display: inline-block;
   padding-right: 3px;
   vertical-align: middle;
@@ -79,32 +81,6 @@
 @media (max-width: 991px) {
   #navbarSupportedContent ul li a {
     padding: 12px 30px;
-  }
-  .hori-selector {
-    margin-top: 0px;
-    margin-left: 10px;
-    border-radius: 0;
-    border-top-left-radius: 25px;
-    border-bottom-left-radius: 25px;
-  }
-  .hori-selector .left,
-  .hori-selector .right {
-    right: 10px;
-  }
-  .hori-selector .left {
-    top: -25px;
-    left: auto;
-  }
-  .hori-selector .right {
-    bottom: -25px;
-  }
-  .hori-selector .left:before {
-    left: -25px;
-    top: -25px;
-  }
-  .hori-selector .right:before {
-    bottom: -25px;
-    left: -25px;
   }
 }
 
